@@ -3,13 +3,13 @@
 ## Hive's Command On Ubuntu 
 *********************************************************
 
-## create database
+## 1. create database
 CREATE DATABASE my_database;
 
-## use database
+## 2. use database
 USE my_database;
 
-## create table
+## 3. create table
 CREATE TABLE my_table1 (
     id INT,
     name STRING
