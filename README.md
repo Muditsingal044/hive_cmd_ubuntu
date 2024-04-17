@@ -1,9 +1,10 @@
 # hive_cmd_ubuntu
+**********************************************************
 
-# create database
+## create database
 CREATE DATABASE my_database;
 
-# use database
+### use database
 USE my_database;
 
 # create table
