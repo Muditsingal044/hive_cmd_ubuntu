@@ -15,51 +15,51 @@ CREATE TABLE my_table1 (
     name STRING
 );
 
-## insert 1 value
+## 4. insert 1 value
 insert into my_tables1 value(1,'mudit');
 
-## insert many values
+## 5. insert many values
 insert into my_tables1 value(2,'maaz'),(3,'shivam'),(4,'aman'),(5,'ishu');
 
-## alter
+## 6. alter
 ALTER TABLE my_table ADD COLUMN age INT;
 
-## view
+## 7. view
 CREATE VIEW my_view AS
 SELECT id, name FROM my_table WHERE age > 18;
 
 
-## function
+## 8. function
 CREATE FUNCTION my_function AS 'org.example.MyFunctionClass';
 
-## index create
+## 9. index create
 CREATE INDEX my_index ON TABLE my_table (name) AS 'COMPACT';
 
 
-## drop index
+## 10. drop index
 DROP INDEX my_index ON my_table;
 
-## drop function
+## 11. drop function
 DROP FUNCTION my_function;
 
 
-## drop view
+## 12. drop view
 DROP VIEW my_view;
 
 
-## drop table
+## 13. drop table
 DROP TABLE IF EXISTS my_table;
 
 
-## drop database
+## 14. drop database
 DROP DATABASE IF EXISTS my_database;
 
 
-## outside 
+## 15. outside 
 quit / exit
 
 
-## Open in browser - 
+## 16. Open in browser - 
 http://localhost:9083
 
 
