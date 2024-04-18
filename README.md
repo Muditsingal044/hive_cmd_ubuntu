@@ -1,6 +1,6 @@
-# hive_cmd_ubuntu
+# hive_cmd
 **********************************************************
-## Hive's Command On Ubuntu 
+## Hive's Command ->
 *********************************************************
 
 ## 1. create database
