@@ -26,7 +26,7 @@ ALTER TABLE my_table ADD COLUMN age INT;
 
 ## 7. view
 CREATE VIEW my_view AS
-SELECT id, name FROM my_table WHERE age > 18;
+SELECT * FROM my_table WHERE id > 3;
 
 
 ## 8. function
