@@ -10,16 +10,16 @@ CREATE DATABASE my_database;
 USE my_database;
 
 ## 3. create table
-CREATE TABLE my_table1 (
+CREATE TABLE my_table (
     id INT,
     name STRING
 );
 
 ## 4. insert 1 value
-insert into my_tables1 values(1,'mudit');
+insert into my_table values(1,'mudit');
 
 ## 5. insert many values
-insert into my_tables1 values(2,'maaz'),(3,'shivam'),(4,'aman'),(5,'ishu');
+insert into my_table values(2,'maaz'),(3,'shivam'),(4,'aman'),(5,'ishu');
 
 ## 6. alter
 ALTER TABLE my_table ADD COLUMN age INT;
