@@ -21,29 +21,20 @@ insert into my_table values(1,'mudit');
 ## 5. insert many values
 insert into my_table values(2,'maaz'),(3,'shivam'),(4,'aman'),(5,'ishu');
 
-## 6. alter
-ALTER TABLE my_table ADD COLUMN age INT;
 
-## 7. view
+## 6. view
 CREATE VIEW my_view AS
 SELECT * FROM my_table WHERE id > 3;
 
 
-## 8. function
-CREATE FUNCTION my_function AS 'org.example.MyFunctionClass';
-
-## 9. index create
-CREATE INDEX my_index ON TABLE my_table (name) AS 'COMPACT';
-
-
-## 10. drop index
+## 7. drop index
 DROP INDEX my_index ON my_table;
 
-## 11. drop function
+## 8. drop function
 DROP FUNCTION my_function;
 
 
-## 12. drop view
+## 9. drop view
 DROP VIEW my_view;
 
 
@@ -51,11 +42,11 @@ DROP VIEW my_view;
 DROP TABLE IF EXISTS my_table;
 
 
-## 14. drop database
+## 10. drop database
 DROP DATABASE IF EXISTS my_database;
 
 
-## 15. outside 
+## 11. outside 
 quit / exit
 
 
