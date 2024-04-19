@@ -27,31 +27,24 @@ CREATE VIEW my_view AS
 SELECT * FROM my_table WHERE id > 3;
 
 
-## 7. drop index
-DROP INDEX my_index ON my_table;
-
-## 8. drop function
-DROP FUNCTION my_function;
-
-
-## 9. drop view
+## 7. drop view
 DROP VIEW my_view;
 
 
-## 13. drop table
+## 8. drop table
 DROP TABLE IF EXISTS my_table;
 
 
-## 10. drop database
+## 9. drop database
 DROP DATABASE IF EXISTS my_database;
 
 
-## 11. outside 
+## 10. outside 
 quit / exit
 
 
-## 16. Open in browser - 
-http://localhost:9083
+## 11. Open in browser ->
+http://localhost:9870/explorer.html#/user/hive/warehouse 
 
 
 
